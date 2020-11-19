@@ -540,6 +540,7 @@ template {
     border: none;
     background-color: #ffffff;
     cursor: pointer;
+    outline: none;
   }
   .menu-button__line {
     width: 16px;
@@ -548,16 +549,13 @@ template {
   }
 }
 
-@media (max-width: 576px) {
-  .logo {
-    width: 99px;
-  }
-}
-
 @media (min-width: 320px) and (max-width: 480px) {
   .navbar-top {
     padding-top: 28px;
     padding-bottom: 28px;
+  }
+  .logo {
+    width: 99px;
   }
 }
 /*# sourceMappingURL=style.css.map */

@@ -6,7 +6,7 @@
     <title>Best Tour Plan - Hotel Booking</title>
     <link rel="preconnect" href="https://fonts.gstatic.com" />
     <link
-      href="https://fonts.googleapis.com/css2?family=Mulish:wght@400;700&family=Nunito:wght@400;700;800&display=swap"
+      href="https://fonts.googleapis.com/css2?family=Mulish:wght@400;700&family=Nunito:wght@400;600;800&display=swap"
       rel="stylesheet"
     />
     <link rel="stylesheet" href="css/swiper-bundle.min.css" />
@@ -17,13 +17,13 @@
       <div class="container">
         <div class="navbar-top">
           <a href="#" class="logo">
-            <img src="image/logo-horizontal.svg" alt="Logo: Best Tour Plan" class="logo__image" />
+            <img src="image/icons/logo-horizontal.svg" alt="Logo: Best Tour Plan" class="logo__image" />
           </a>
 
           <form action="#" class="search navbar__search">
             <input type="text" class="search__input" placeholder="Search Location" />
             <button class="search__button">
-              <img src="image/icon-search.svg" alt="Icon: search" />
+              <img src="image/icons/icon-search.svg" alt="Icon: search" />
             </button>
           </form>
 
@@ -96,15 +96,15 @@
           <div class="hotel-info__text">
             <div class="hotel-wrapper">
               <div class="stars">
-                <img class="stars-image__star" src="image/star.svg" alt="Icon: star" /><img
+                <img class="stars-image__star" src="image/icons/star.svg" alt="Icon: star" /><img
                   class="stars-image__star"
-                  src="image/star.svg"
+                  src="image/icons/star.svg"
                   alt="Icon: star"
-                /><img class="stars-image__star" src="image/star.svg" alt="Icon: star" /><img
+                /><img class="stars-image__star" src="image/icons/star.svg" alt="Icon: star" /><img
                   class="stars-image__star"
-                  src="image/star.svg"
+                  src="image/icons/star.svg"
                   alt="Icon: star"
-                /><img class="stars-image__star" src="image/star.svg" alt="Icon: star" />
+                /><img class="stars-image__star" src="image/icons/star.svg" alt="Icon: star" />
               </div>
               <h1 class="hotel-name hotel-info__name">Grand Hilton hotel</h1>
               <span class="offer hotel-info__offer">Flash Offer</span>
@@ -144,7 +144,6 @@
                   <img class="hotel-grid_image" src="image/slide-5.jpg" alt="Photo: hotel" />
                 </div>
               </div>
-
               <!-- If we need navigation buttons -->
               <button class="slider-button slider-button--prev"></button>
               <button class="slider-button slider-button--next"></button>
@@ -152,6 +151,45 @@
             <!-- /.swiper-container -->
           </div>
           <!-- /.slider -->
+
+          <div class="hotel-right">
+            <div class="booking">
+              <div class="booking__info">
+                <div class="booking__price">
+                  <span class="booking__start">price starts as</span>
+                  <strong class="booking__price-tag">$ 8,500</strong>
+                  <span class="booking__per-room">per room / night</span>
+                </div>
+                <!-- /.booking__price -->
+                <div class="booking__room">
+                  <div class="booking__text">
+                    <img src="image/icons/user.svg" alt="Icon: user" class="booking__icon" />
+                    <span class="booking__description">2 x Guests</span>
+                  </div>
+                  <div class="booking__text">
+                    <img src="image/icons/home.svg" alt="Icon: home" class="booking__icon" />
+                    <span class="booking__description">1 x Room</span>
+                  </div>
+                </div>
+                <!-- /.booking__room -->
+              </div>
+              <!-- /.booking_info -->
+              <div class="booking__call-center">
+                <span class="booking__heading">Quick Booking</span>
+                <a href="tel:12100" class="booking__number">
+                  <img src="image/icons/phone-call.svg" alt="Icon: phone" />
+                  <span class="booking__num">12100</span></a
+                >
+              </div>
+              <!-- /.booking -->
+              <button class="button booking__button">View Other Options</button>
+              <!-- /.button booking__button -->
+            </div>
+            <!-- /.booking -->
+            <div class="map"></div>
+            <!-- /.map -->
+          </div>
+          <!-- /.hotel-right -->
         </div>
         <!-- /.hotel-grid -->
       </div>

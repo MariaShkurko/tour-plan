@@ -15,4 +15,10 @@ var mySwiper = new Swiper(".swiper-container", {
     pageUpDown: true,
     arrowLeftRight: true,
   },
+
+  // autoplay
+  autoplay: {
+    delay: 5000,
+    // reverseDirection: true,
+  },
 });

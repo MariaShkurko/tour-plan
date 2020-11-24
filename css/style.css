@@ -744,6 +744,11 @@ template {
   padding-top: 4px;
 }
 
+.booking__icon {
+  width: 14px;
+  height: 14px;
+}
+
 .booking__text {
   display: -webkit-box;
   display: -ms-flexbox;
@@ -882,6 +887,7 @@ template {
   }
   .booking {
     width: 340px;
+    padding: 29px 23px 26px 22px;
   }
   .map {
     width: 340px;

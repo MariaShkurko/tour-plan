@@ -820,6 +820,15 @@ template {
   outline: none;
 }
 
+.map {
+  width: 347px;
+  height: 213px;
+}
+
+.map iframe {
+  border-radius: 10px;
+}
+
 @media (max-width: 1200px) {
   .container {
     max-width: 960px;
